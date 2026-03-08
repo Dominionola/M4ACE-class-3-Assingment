@@ -1,0 +1,34 @@
+//Variables & Data Types - 
+// Declare variables for a user profile with different data types, practice type checking with typeof, 
+// explore type coercion, and create template literals
+
+// var userName = "Dominion Samuel"; //string
+// var employee = true; //boolean
+// var userAge = 70; //number
+
+// console.log(typeof userName)
+// console.log(typeof employee)
+// console.log(typeof userAge)
+
+// Operators & Conditionals - 
+// Build a grade calculator that accepts scores and returns letter grades, 
+// handling invalid inputs using both if/else and switch statements
+
+let testScore = 77;
+let grade;
+
+if (testScore >= 90) {
+    grade = "A"
+} else if (testScore >= 80) {
+ grade = "B"
+} else if (testScore >= 60) {
+    grade = "C"
+} else if (testScore >= 50) {
+    grade = "D"
+}else if (testScore >= 40) {
+    grade = "E"
+} else {
+    grade = "Invalid"
+}
+
+console.log(grade)
